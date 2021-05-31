@@ -55,7 +55,7 @@ namespace GettingArrayElementIndex
 
             if (startIndex > arrayToSearch.Length)
             {
-                throw new ArgumentOutOfRangeException(nameof(startIndex), "startIndex is greater or equals arrayToSearch.Length");
+                throw new ArgumentOutOfRangeException(nameof(startIndex), "startIndex is greater than arrayToSearch.Length");
             }
 
             if (count < 0)
